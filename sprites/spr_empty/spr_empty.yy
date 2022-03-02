@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"413301b1-e6fe-4e5e-a8c6-7526eb30ba43","path":"sprites/spr_powerPlant_coal/spr_powerPlant_coal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"413301b1-e6fe-4e5e-a8c6-7526eb30ba43","path":"sprites/spr_powerPlant_coal/spr_powerPlant_coal.yy",},"LayerId":{"name":"c1376597-0aa0-4735-b8d5-a5f515693a0b","path":"sprites/spr_powerPlant_coal/spr_powerPlant_coal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerPlant_coal","path":"sprites/spr_powerPlant_coal/spr_powerPlant_coal.yy",},"resourceVersion":"1.0","name":"413301b1-e6fe-4e5e-a8c6-7526eb30ba43","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1e65a4ad-cf5c-45a6-b181-23aac587bddf","path":"sprites/spr_empty/spr_empty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1e65a4ad-cf5c-45a6-b181-23aac587bddf","path":"sprites/spr_empty/spr_empty.yy",},"LayerId":{"name":"4e1fb1ab-5461-4846-aa45-007be0c36743","path":"sprites/spr_empty/spr_empty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"resourceVersion":"1.0","name":"1e65a4ad-cf5c-45a6-b181-23aac587bddf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_powerPlant_coal","path":"sprites/spr_powerPlant_coal/spr_powerPlant_coal.yy",},
+    "spriteId": {"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4d75983b-6054-4e48-93ee-0b09d98c685f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"413301b1-e6fe-4e5e-a8c6-7526eb30ba43","path":"sprites/spr_powerPlant_coal/spr_powerPlant_coal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"25055ec8-976a-4bad-a2cd-e89e771ac111","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1e65a4ad-cf5c-45a6-b181-23aac587bddf","path":"sprites/spr_empty/spr_empty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_powerPlant_coal","path":"sprites/spr_powerPlant_coal/spr_powerPlant_coal.yy",},
+    "parent": {"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_powerPlant_coal",
+    "name": "spr_empty",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c1376597-0aa0-4735-b8d5-a5f515693a0b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4e1fb1ab-5461-4846-aa45-007be0c36743","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Power Plants",
-    "path": "folders/Sprites/Power Plants.yy",
+    "name": "UI Elements",
+    "path": "folders/Sprites/UI Elements.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_powerPlant_coal",
+  "name": "spr_empty",
   "tags": [],
   "resourceType": "GMSprite",
 }

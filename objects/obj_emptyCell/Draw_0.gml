@@ -1,0 +1,1 @@
+if mouse_enter then draw_rectangle(x, y, x + sprite_width, y + sprite_height, true)

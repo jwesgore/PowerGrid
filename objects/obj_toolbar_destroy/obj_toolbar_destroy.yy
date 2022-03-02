@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_destroy",
+    "path": "sprites/spr_destroy/spr_destroy.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI Elements",
-    "path": "folders/Objects/UI Elements.yy",
+    "name": "Toolbar",
+    "path": "folders/Objects/Toolbar.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ui",
+  "name": "obj_toolbar_destroy",
   "tags": [],
   "resourceType": "GMObject",
 }
