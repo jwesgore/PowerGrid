@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_toolbar_pp",
-    "path": "sprites/spr_toolbar_pp/spr_toolbar_pp.yy",
+    "name": "spr_placeholder",
+    "path": "sprites/spr_placeholder/spr_placeholder.yy",
   },
   "solid": false,
   "visible": true,

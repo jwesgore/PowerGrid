@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.cellx = 0
-global.celly = 0
+smog += global.smog
+electricity += global.electricity
+alarm[0] = alarm_timer
