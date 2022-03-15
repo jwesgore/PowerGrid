@@ -1,4 +1,4 @@
-
+/// @description level gui 
 start_point = 350
 increment = 20
 
@@ -9,6 +9,11 @@ if (game_start == true) {
 		draw_text(32, 32, "money " + string(global.money))
 		draw_text(32, 64, "electricity " + string(electricity)) 
 		draw_text(32, 96, "smog " + string(smog))
+		
+		// draw toolbar
+	
+		
+		
 	} else {
 		
 		// intro dialouge
