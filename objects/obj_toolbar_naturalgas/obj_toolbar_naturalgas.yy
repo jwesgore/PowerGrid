@@ -28,6 +28,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"sprite","path":"objects/obj_toolbar/obj_toolbar.yy",},"objectId":{"name":"obj_toolbar","path":"objects/obj_toolbar/obj_toolbar.yy",},"value":"spr_powerPlant_naturalgas","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"object","path":"objects/obj_toolbar/obj_toolbar.yy",},"objectId":{"name":"obj_toolbar","path":"objects/obj_toolbar/obj_toolbar.yy",},"value":"obj_powerPlant_naturalgas","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"get_function","path":"objects/obj_toolbar/obj_toolbar.yy",},"objectId":{"name":"obj_toolbar","path":"objects/obj_toolbar/obj_toolbar.yy",},"value":"get_natural_gas_values()","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Toolbar",

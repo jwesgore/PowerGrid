@@ -25,7 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"get_function","path":"objects/obj_powerPlant/obj_powerPlant.yy",},"objectId":{"name":"obj_powerPlant","path":"objects/obj_powerPlant/obj_powerPlant.yy",},"value":"get_wind_values()","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Power Plants",
     "path": "folders/Objects/Power Plants.yy",

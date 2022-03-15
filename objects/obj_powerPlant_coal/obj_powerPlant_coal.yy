@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"smog_generated","path":"objects/obj_powerPlant/obj_powerPlant.yy",},"objectId":{"name":"obj_powerPlant","path":"objects/obj_powerPlant/obj_powerPlant.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"get_function","path":"objects/obj_powerPlant/obj_powerPlant.yy",},"objectId":{"name":"obj_powerPlant","path":"objects/obj_powerPlant/obj_powerPlant.yy",},"value":"get_coal_values()","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Power Plants",

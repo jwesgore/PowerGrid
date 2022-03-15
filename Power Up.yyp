@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"spr_exit_hover","path":"sprites/spr_exit_hover/spr_exit_hover.yy",},"order":7,},
-    {"id":{"name":"obj_toolbar_destroy","path":"objects/obj_toolbar_destroy/obj_toolbar_destroy.yy",},"order":8,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"spr_powerPlant_oil","path":"sprites/spr_powerPlant_oil/spr_powerPlant_oil.yy",},"order":4,},
     {"id":{"name":"obj_scoreKeeper","path":"objects/obj_scoreKeeper/obj_scoreKeeper.yy",},"order":0,},

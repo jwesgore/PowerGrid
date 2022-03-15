@@ -6,7 +6,8 @@ if (game_start == true) {
 	
 	if (level_start == true) {
 		// draw score
-		draw_text(32, 32, "money " + string(global.money))
+		
+		draw_text_transformed(32, 32, "money " + string(global.money), 1, 1,0)
 		draw_text(32, 64, "electricity " + string(electricity)) 
 		draw_text(32, 96, "smog " + string(smog))
 		
