@@ -7,10 +7,17 @@ if (game_start == true) {
 	draw_set_color(c_black)
 	
 	// draw score
-	draw_sprite(spr_info,1,20,20)
+	x1 = 20
+	y1 = 20
+	x2 = x1 + 300
+	y2 = y1 + 150
+	draw_sprite_pos(spr_info,1,x1,y1,x2,y1,x2,y2,x1,y2,true )
 	draw_text_transformed(32, 32, "money " + string(money), 1, 1,0)
-	draw_text(32, 64, "electricity " + string(electricity)) 
+	draw_text(32, 64, "electricity " + string(electricity) + " kWh") 
 	draw_text(32, 96, "smog " + string(smog_total))
+	draw_text(32, 128, "goal: 300kWh, <1000 smog")
+	
+
 		
 	// draw toolbar
 	draw_sprite(spr_toolbar,2, 20, 175)
