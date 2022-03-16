@@ -28,8 +28,8 @@
   "overriddenProperties": [
     {"propertyId":{"name":"default_sprite","path":"objects/obj_restart/obj_restart.yy",},"objectId":{"name":"obj_restart","path":"objects/obj_restart/obj_restart.yy",},"value":"spr_exit_red","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"hover_sprite","path":"objects/obj_restart/obj_restart.yy",},"objectId":{"name":"obj_restart","path":"objects/obj_restart/obj_restart.yy",},"value":"spr_exit_red_hover","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"menu_order","path":"objects/obj_gameOver/obj_gameOver.yy",},"objectId":{"name":"obj_gameOver","path":"objects/obj_gameOver/obj_gameOver.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"val","path":"objects/obj_restart/obj_restart.yy",},"objectId":{"name":"obj_restart","path":"objects/obj_restart/obj_restart.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"menu_order","path":"objects/obj_restart/obj_restart.yy",},"objectId":{"name":"obj_restart","path":"objects/obj_restart/obj_restart.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "End Page",

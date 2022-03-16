@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_win",
-    "path": "sprites/spr_win/spr_win.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "End Page",
-    "path": "folders/Objects/End Page.yy",
+    "name": "UI Elements",
+    "path": "folders/Objects/UI Elements.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_win",
+  "name": "obj_end",
   "tags": [],
   "resourceType": "GMObject",
 }

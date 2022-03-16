@@ -7,6 +7,8 @@ function scp_room1(){
 	obj_scoreKeeper.alarm[1] = 1
 	
 	// set stage values
+	obj_scoreKeeper.rating = 1
+	obj_scoreKeeper.win = false
 	obj_scoreKeeper.money = 200
 	obj_scoreKeeper.smog = 0
 	obj_scoreKeeper.smog_total = 0
@@ -25,6 +27,7 @@ function get_coal_values() {
 function get_hydro_values() {
 	return [500,10,0]
 }
+
 function get_natural_gas_values() {
 	return [300,20,5]
 }
@@ -54,4 +57,11 @@ function ending(val) {
 
 	if val == 1 then game_restart()
 
+}
+
+// winner
+function get_rating(smog){
+	if smog < 250 return 3
+	else if smog < 600 return 2
+	else return 1
 }
