@@ -1,0 +1,2 @@
+/// @description 
+clicked = true

@@ -5,9 +5,9 @@ price = values[0]
 electricity = values[1]
 smog = values[2]
 
-if global.money >= price then {
-	global.money -= price
-	global.smog += smog
+if obj_scoreKeeper.money >= price then {
+	obj_scoreKeeper.money -= price
+	obj_scoreKeeper.smog += smog
 	obj_scoreKeeper.electricity += electricity
 } else {
 	sale = false

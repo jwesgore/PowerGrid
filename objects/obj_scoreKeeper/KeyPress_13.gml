@@ -1,3 +1,3 @@
 /// @description start level
 
-level_start = true
+if game_start then level_start = true

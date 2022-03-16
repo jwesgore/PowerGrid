@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 63,
-  "bbox_top": 0,
+  "bbox_top": 19,
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a74d219c-aa08-478c-8994-6de42ae635be","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a74d219c-aa08-478c-8994-6de42ae635be","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"LayerId":{"name":"8d19de3d-f32c-4b5d-93c4-147d67ccfac7","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerPlant_solar","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"resourceVersion":"1.0","name":"a74d219c-aa08-478c-8994-6de42ae635be","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fec38b7e-f8f8-4309-bef3-2e4aa436b92c","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fec38b7e-f8f8-4309-bef3-2e4aa436b92c","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"LayerId":{"name":"88d9ee72-4046-4642-bc82-4a6afc0eb0e1","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_powerPlant_solar","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"resourceVersion":"1.0","name":"fec38b7e-f8f8-4309-bef3-2e4aa436b92c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_powerPlant_solar","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"118ae7e0-d276-42bf-a572-88dd47c78a15","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a74d219c-aa08-478c-8994-6de42ae635be","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2934ea33-51b4-4f7d-a1e3-446b18877522","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fec38b7e-f8f8-4309-bef3-2e4aa436b92c","path":"sprites/spr_powerPlant_solar/spr_powerPlant_solar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8d19de3d-f32c-4b5d-93c4-147d67ccfac7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"88d9ee72-4046-4642-bc82-4a6afc0eb0e1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

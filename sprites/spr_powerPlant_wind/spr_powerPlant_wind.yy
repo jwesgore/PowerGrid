@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 63,
-  "bbox_top": 0,
+  "bbox_left": 7,
+  "bbox_right": 49,
+  "bbox_top": 13,
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f2f23e11-027b-4aec-952b-ca57c6b5b2f1","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f2f23e11-027b-4aec-952b-ca57c6b5b2f1","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"LayerId":{"name":"a4ed1887-ffef-42ac-8e37-0526f1f38fa0","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerPlant_wind","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"resourceVersion":"1.0","name":"f2f23e11-027b-4aec-952b-ca57c6b5b2f1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"49b1e2b7-dafe-4151-9082-612da391b083","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"49b1e2b7-dafe-4151-9082-612da391b083","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"LayerId":{"name":"94ca5efe-de98-4427-9912-bce97340a4c1","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_powerPlant_wind","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"resourceVersion":"1.0","name":"49b1e2b7-dafe-4151-9082-612da391b083","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_powerPlant_wind","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0a560dce-c48a-49e6-b923-a65ca381e333","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2f23e11-027b-4aec-952b-ca57c6b5b2f1","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"33ee5017-2d50-4e12-b45b-38aac457430d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"49b1e2b7-dafe-4151-9082-612da391b083","path":"sprites/spr_powerPlant_wind/spr_powerPlant_wind.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a4ed1887-ffef-42ac-8e37-0526f1f38fa0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"94ca5efe-de98-4427-9912-bce97340a4c1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
