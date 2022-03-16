@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_empty",
-    "path": "sprites/spr_empty/spr_empty.yy",
+    "name": "spri_emptyLot",
+    "path": "sprites/spri_emptyLot/spri_emptyLot.yy",
   },
   "solid": false,
   "visible": true,
