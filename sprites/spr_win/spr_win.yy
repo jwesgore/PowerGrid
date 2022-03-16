@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1190,
+  "bbox_right": 1158,
   "bbox_top": 0,
   "bbox_bottom": 125,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1191,
+  "width": 1159,
   "height": 126,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b42368f6-52b3-41bd-b0ef-17e77d3e68ac","path":"sprites/spr_gameOver/spr_gameOver.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b42368f6-52b3-41bd-b0ef-17e77d3e68ac","path":"sprites/spr_gameOver/spr_gameOver.yy",},"LayerId":{"name":"49c0a039-9f80-42b6-a592-a707ba11b69a","path":"sprites/spr_gameOver/spr_gameOver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gameOver","path":"sprites/spr_gameOver/spr_gameOver.yy",},"resourceVersion":"1.0","name":"b42368f6-52b3-41bd-b0ef-17e77d3e68ac","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b83141bc-38fe-4a29-b1d8-f56455df78f0","path":"sprites/spr_win/spr_win.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b83141bc-38fe-4a29-b1d8-f56455df78f0","path":"sprites/spr_win/spr_win.yy",},"LayerId":{"name":"6445caba-4c51-4f15-90b9-bd52161aeaba","path":"sprites/spr_win/spr_win.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},"resourceVersion":"1.0","name":"b83141bc-38fe-4a29-b1d8-f56455df78f0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_gameOver","path":"sprites/spr_gameOver/spr_gameOver.yy",},
+    "spriteId": {"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3ccd6d7c-c877-4559-b504-31cb354cce8b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b42368f6-52b3-41bd-b0ef-17e77d3e68ac","path":"sprites/spr_gameOver/spr_gameOver.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"61493585-9d08-4ac7-8bd6-e81c2a71aa76","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b83141bc-38fe-4a29-b1d8-f56455df78f0","path":"sprites/spr_win/spr_win.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 595,
+    "xorigin": 579,
     "yorigin": 63,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_gameOver","path":"sprites/spr_gameOver/spr_gameOver.yy",},
+    "parent": {"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_gameOver",
+    "name": "spr_win",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"49c0a039-9f80-42b6-a592-a707ba11b69a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6445caba-4c51-4f15-90b9-bd52161aeaba","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Ending Page.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_gameOver",
+  "name": "spr_win",
   "tags": [],
   "resourceType": "GMSprite",
 }

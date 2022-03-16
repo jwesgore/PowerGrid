@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_gameOver",
-    "path": "sprites/spr_gameOver/spr_gameOver.yy",
+    "name": "spr_win",
+    "path": "sprites/spr_win/spr_win.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_gameOver",
+    "path": "objects/obj_gameOver/obj_gameOver.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,19 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [
-    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"menu_order","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "eventList": [],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "End Page",
     "path": "folders/Objects/End Page.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gameOver",
+  "name": "obj_win",
   "tags": [],
   "resourceType": "GMObject",
 }
