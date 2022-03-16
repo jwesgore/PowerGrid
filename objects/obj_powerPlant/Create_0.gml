@@ -6,6 +6,7 @@ electricity = values[1]
 smog = values[2]
 
 if obj_scoreKeeper.money >= price then {
+	audio_play_sound(plantDrop, 0, 0)
 	obj_scoreKeeper.money -= price
 	obj_scoreKeeper.smog += smog
 	obj_scoreKeeper.electricity += electricity

@@ -61,7 +61,7 @@ function ending(val) {
 
 // winner
 function get_rating(smog){
-	if smog < 250 return 3
-	else if smog < 600 return 2
+	if smog <= 250 return 3
+	else if smog <= 600 return 2
 	else return 1
 }
