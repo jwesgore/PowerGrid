@@ -2,6 +2,7 @@
 
 if (mouse_check_button_released(mb_left)) && (position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id)) {
     
+	// check if follower exists to deselect
 	if instance_exists(obj_follower) {
 		instance_destroy(obj_follower)
 	} else {
